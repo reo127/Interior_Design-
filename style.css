@@ -129,3 +129,85 @@ ul {
     width: 34rem;
 }
 
+@media screen and (max-width:1554px) {
+    .logo {
+        font-size: 1.5rem;
+        margin-top: 0rem;
+        margin-left: 0rem;
+    }
+
+    .item {
+        color: #fff;
+        font-size: 1.2rem;
+        margin: 2rem 1rem;
+        font-weight: 900;
+        cursor: pointer;
+        transition: .3s ease;
+    }
+}
+
+@media screen and (max-width: 1413px) {
+    .pazzle {
+        position: absolute;
+        top: 37rem;
+        right: 0rem;
+    }
+
+    .hero > .right > h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:874px) {
+    nav {
+        justify-content: center;
+        padding: 0rem 0rem;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .right {
+        margin-top: 5rem;
+        margin-left: 0rem;
+    }
+
+    .bulb {
+        right: initial;
+        bottom: 0rem;
+        width: 26rem;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .item {
+
+        font-size: .6rem;
+        margin: 2rem 1rem;
+
+    }
+}
+
+@media screen and (max-width: 592px) {
+    .hero > .right > h1 {
+        font-size: 2.5rem;
+    }
+
+    .btn {
+        margin-left: 2rem;
+        font-size: 1rem;
+        margin-top: 3rem;
+    }
+
+    .bulb {
+        width: 22rem;
+    }
+
+    .pazzle {
+        position: absolute;
+        top: 35rem;
+        right: 0rem;
+        width: 20rem;
+    }
+
+}
+
